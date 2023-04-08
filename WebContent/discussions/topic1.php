@@ -38,6 +38,7 @@ $sql = "SELECT * FROM threads WHERE id = $id ORDER BY created_at DESC";
 <head>
     <title><?php echo $row['title']; ?></title>
     <link rel = "stylesheet" href = "css/topic.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
     const form = document.querySelector('#comment-form');
     form.addEventListener('submit', (event) => {
